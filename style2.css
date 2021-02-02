@@ -1,0 +1,132 @@
+/* item page */
+
+.item{
+text-align: center; /* va fi centrat in acel 25% din latimea containerului ca cele 4 elemente sa fie egal distribuite */
+
+}
+
+
+.item .left{
+	float: left;
+	width: 30%; 
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+.quantity_sub input[type="number"]{
+	margin-top: 10px;
+	width:30%;
+	height: 5%;
+}
+ 
+ 
+.quantity_sub input[type="submit"]{
+	margin-top: 10px;
+	color:white;
+	cursor:pointer;
+	background-color:#633800;
+	height: 5%;
+
+}
+
+
+.item .right{
+	float: left;
+	width: 70%;
+}
+
+.name_item{
+	text-align: center;
+    font-size: 40px;
+    color: #471b00;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.descriere{
+	margin:60px;
+	margin-top: 60px;
+	color: #3d3d3d;
+	width:85%;
+	font-size: 20px;
+	text-align:center;
+}
+
+.dimensiuni{
+	margin-left:70px;
+	margin-top:50px;
+	text-align:left;
+	font-size: 20px;
+	color: #3d3d3d;
+}
+
+
+
+
+
+/* add product: */
+
+
+.Add {
+  font-size: 25px;
+}
+
+.Add-page {
+  width: 500px;
+  padding: 8% 0 3% 0;
+  margin: auto;
+}
+
+.formAdd {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.34);
+}
+.formAdd input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.formAdd input[type="submit"] {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #633800;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.formAdd input[type="submit"]:hover,.formAdd input[type="submit"]:active,.formAdd input[type="submit"]:focus {
+  background: #965500;
+}
+
+.formAdd .message a:hover {
+  color: #965500;
+}
+
+.formAdd .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+.formAdd .message a  {
+  color: #633800;
+  text-decoration: none;
+}
+
